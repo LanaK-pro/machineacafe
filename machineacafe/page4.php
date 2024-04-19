@@ -20,7 +20,7 @@
 
 
     <div class="progress m-5 col-5 " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-        <div class="progress-bar" style="width: 60%"></div>
+        <div class="progress-bar" style="width: 75%"></div>
     </div>
 </body>
 

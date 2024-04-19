@@ -25,7 +25,9 @@
         <div class=" col-2 m-5 ">
             <label for="exampleFormControlInput1" class="form-label">Combien de sucres ?</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Combien ?" name="sucre">
+            <?php echo 'input name="boisson" type="hidden" value=" ' . $_GET['boisson'] . '">' ?>
             <input type="submit" class="btn btn-primary" value="Valider"></input>
+
         </div>
     </form>
 
