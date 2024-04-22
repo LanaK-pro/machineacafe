@@ -31,7 +31,6 @@
         </div>
     </form>
 
-    <p>Vous avez choisi <?php echo $_GET['sucre']; ?></p>
 
     <div class="progress m-5 col-5 " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar" style="width: 25%"></div>

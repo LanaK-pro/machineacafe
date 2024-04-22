@@ -21,7 +21,7 @@
     <!--- Tableau de recap de la commande --->
 
     <div class=" text-center  m-5 ">
-        <h1>Vous avez commandé un <!-- boisson --> avec <!-- nombre de sucres --> </h1>
+        <h1>Vous avez commandé un <?php echo $_GET['boisson']; ?> avec <?php echo $_GET['sucre']; ?> sucres </h1>
         <p>Maintenant on passe au paiment 💸💸</p>
         <a href="page4.php" class="btn btn-primary">Suivant</a>
     </div>
@@ -31,9 +31,7 @@
         <div class="progress-bar" style="width: 40%"></div>
     </div>
 
-    <?php
-    var_dump($_GET);
-    ?>
+
 </body>
 
 </html>

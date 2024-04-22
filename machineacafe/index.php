@@ -107,9 +107,7 @@
 
 
 
-    // Recup le nom de la boisson dans le formulaire 
 
-    $nomBoisson = $_GET['boisson'];
 
     // Condition pour une entrée autre
 
