@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page 4 - Paiment</title>
+    <title>Page 4 - Paiement</title>
 </head>
 
 <body>
@@ -19,7 +19,7 @@
     </div>
 
 
-    <h1 class="text-center">Paiment</h1>
+    <h1 class="text-center">Paiement</h1>
 
 
 
