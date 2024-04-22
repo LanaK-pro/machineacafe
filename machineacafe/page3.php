@@ -28,8 +28,12 @@
 
     <div class="progress m-5 col-5 " role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar" style="width: 50%"></div>
+        <div class="progress-bar" style="width: 40%"></div>
     </div>
 
+    <?php
+    var_dump($_GET);
+    ?>
 </body>
 
 </html>

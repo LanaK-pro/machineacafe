@@ -114,18 +114,20 @@
     // Condition pour une entrée autre
 
 
+    if (isset($_GET['boisson'])) {
+        $nomBoisson = $_GET['boisson'];
 
-    foreach ($boissons as $key => $boisson) {
-        if ($boisson["title"] === $nomBoisson) {
-            echo ("ok !");
-        } else {
-            echo ("non !");
+        foreach ($boissons as $key => $boisson) {
+            if ($boisson["title"] === $nomBoisson) {
+                echo ("ok !");
+            } else {
+                echo ("non !");
+            }
         }
+
+
+        var_dump(array_column($boissons, "title"));
     }
-
-
-    var_dump($boisson["title"]);
-
 
 
 
